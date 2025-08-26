@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { DotLottiePlayer } from "@dotlottie/react-player";
-import "@dotlottie/react-player/dist/index.css";
 import { ChevronDown } from "lucide-react";
+import Lottie from "lottie-react";
+import heroAnimation from "../assets/hero.json"; // put your JSON file in src/assets/
 
 const HeroSection = ({ setActiveSection }) => {
   const [text, setText] = useState("");
@@ -60,10 +60,10 @@ const HeroSection = ({ setActiveSection }) => {
           </div>
 
           <div className="relative flex justify-center">
-            <DotLottiePlayer
-              src="https://lottie.host/5bad2f11-cf34-4234-af90-49dae2c91e0c/0W9t0lU9xw.lottie"
-              autoplay
-              loop
+            <Lottie
+              animationData={heroAnimation}
+              loop={true}
+              autoplay={true}
               style={{ width: "100%", height: "auto" }}
             />
           </div>
