@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import HeroSection from "./HeroSection";
 import AboutSection from "./AboutSection";
 import SkillsSection from "./Skill";
-// import ProjectsSection from "./Project";
+import ProjectsSection from "./Project";
 import ContactSection from "./ContactSection";
 import Header from "./Header";
 import Footer from "./Footer";
@@ -28,7 +28,7 @@ const Portfolio = () => {
         <section id="home"><HeroSection /></section>
         <section id="about"><AboutSection /></section>
         <section id="skills"><SkillsSection /></section>
-        {/* <section id="projects"><ProjectsSection /></section> */}
+        <section id="projects"><ProjectsSection /></section>
         <section id="contact"><ContactSection /></section>
       </main>
 
