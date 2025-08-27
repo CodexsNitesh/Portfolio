@@ -12,7 +12,7 @@ const Ecompic = () => {
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900 py-10 px-6">
       <h1 className="text-3xl font-bold text-center text-gray-900 dark:text-white mb-8">
-        Ecommerce Website Demo
+        Inventory Demo
       </h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto">
