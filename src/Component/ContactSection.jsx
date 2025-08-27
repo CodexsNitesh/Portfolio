@@ -34,7 +34,7 @@ const ContactSection = () => {
               <h3 className="font-semibold text-white mb-4">Follow Me</h3>
               <div className="flex gap-4">
                 <a
-                  href="https://github.com/MegXux"
+                  href="https://github.com/CodexsNitesh"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full flex items-center justify-center bg-gray-700 text-gray-300 hover:bg-black hover:text-white transition-all duration-300"
@@ -43,7 +43,7 @@ const ContactSection = () => {
                 </a>
 
                 <a
-                  href="https://www.linkedin.com/in/nitesh-pandit-478a0a266/"
+                  href="https://www.linkedin.com/in/nitesh-xu"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full flex items-center justify-center bg-blue-900 text-blue-400 hover:bg-blue-600 hover:text-white transition-all duration-300"

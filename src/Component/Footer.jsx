@@ -54,7 +54,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Connect</h4>
             <div className="flex gap-4">
               <a
-                href="https://github.com/MegXux"
+                href="https://github.com/CodexsNitesh"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full flex items-center justify-center bg-gray-200 text-gray-700 hover:bg-black hover:text-white transition-all duration-300 shadow-md hover:shadow-lg"
