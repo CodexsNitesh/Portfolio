@@ -63,7 +63,7 @@ const Footer = () => {
               </a>
 
               <a
-                href="https://www.linkedin.com/in/nitesh-pandit-478a0a266/"
+                href="https://www.linkedin.com/in/nitesh-xu"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full flex items-center justify-center bg-blue-100 text-blue-700 hover:bg-blue-600 hover:text-white transition-all duration-300 shadow-md hover:shadow-lg"
